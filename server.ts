@@ -16,7 +16,8 @@ bot.telegram.getMe().then((botInfo) => {
 });
 
 // Start bot
-bot.launch({ webhook: { domain: webhookDomain, port: PORT, maxConnections: 100 } }).then(() => { 
-	console.log("🤖 Bot is now using long polling...");
-	console.log("Webhook bot listening on port", PORT);
-});
+// bot.launch({ webhook: { domain: webhookDomain, port: PORT, maxConnections: 100 } }).then(() => { 
+// 	console.log("🤖 Bot is now using long polling...");
+// 	console.log("Webhook bot listening on port", PORT);
+// });
+bot.launch();
